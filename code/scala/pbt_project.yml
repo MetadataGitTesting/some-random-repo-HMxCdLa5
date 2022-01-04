@@ -2,6 +2,21 @@ name: marcy.murazik
 description: User fork
 version: 1
 author: damion.aufderhar@yahoo.com
-workflows: {}
+workflows:
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: damion.aufderhar@yahoo.com
+    mode: batch
+    language: scala
+    createdAt: '2022-01-04 12:32:22'
+    datasets:
+      inputs: []
+      outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Mrs__Dong_Kiehn:
+    name: Mrs__Dong_Kiehn
+    description: Really solid info
+    createdAt: '2022-01-04 12:32:23'
+    author: damion.aufderhar@yahoo.com
